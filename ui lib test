@@ -514,7 +514,7 @@ function Flux:Window(text, bottom, mainclr, toclose)
 			Title.TextSize = 16.000
 			Title.TextTransparency = 0.300
 			Title.TextXAlignment = Enum.TextXAlignment.Left
---[[
+
 			Circle.Name = "Circle"
 			Circle.Parent = Title
 			Circle.Active = true
@@ -539,7 +539,7 @@ function Flux:Window(text, bottom, mainclr, toclose)
 			CircleSmallCorner.CornerRadius = UDim.new(2, 6)
 			CircleSmallCorner.Name = "CircleSmallCorner"
 			CircleSmallCorner.Parent = CircleSmall
-]]
+
 			Description.Name = "Description"
 			Description.Parent = Title
 			Description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -647,7 +647,7 @@ function Flux:Window(text, bottom, mainclr, toclose)
 						{TextColor3 = Color3.fromRGB(255,255,255)}
 					):Play()
 				
-				--[[	TweenService:Create(
+					TweenService:Create(
 						ArrowIco,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 						{ImageColor3 = Color3.fromRGB(255,255,255)}
@@ -668,13 +668,13 @@ function Flux:Window(text, bottom, mainclr, toclose)
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 						{BackgroundColor3 = Color3.fromRGB(211, 211, 211)}
 					):Play()
-					]]
-				--[[	TweenService:Create(
+					
+					TweenService:Create(
 						CircleSmall,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
 						{BackgroundTransparency = 1}
 					):Play()
-					]]
+					
 					TweenService:Create(
 						Title,
 						TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),

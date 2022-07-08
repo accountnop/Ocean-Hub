@@ -5,15 +5,15 @@
 do
 	local L_1_ = Instance.new("BindableFunction")
 	function L_1_.OnInvoke(L_4_arg0)
-		if L_4_arg0 == "Copy" then
-			setclipboard('https://discord.gg/8ps4575qtH')
+		if L_4_arg0 == "hm" then
+			setclipboard('xvideos.com')
 		end
 	end
 	game:GetService("StarterGui"):SetCore("SendNotification", {
-		Title = "$$CATTUS$$";
-		Text = "CRACKED BY CATTUS CRACKUS $$$, JOIN THE DISCORD FOR MORE";
+		Title = "Puma?";
+		Text = "Puma In You DICK RAHHHHHHHHHHHHHHHHHHHHH";
 		Duration = 5;
-		Button1 = "Copy";
+		Button1 = "hm";
 		Button2 = "No";
 		Callback = L_1_
 	})

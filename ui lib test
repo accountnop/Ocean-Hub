@@ -863,7 +863,7 @@ function CFAHub:CreateWindow(title, gameName, intro)
                 callback = callback or function() end
 
          
-                local tog = setting.Toggled or false
+              --  local tog = setting.Toggled or false
 
                 local ToggleButton = Instance.new("TextButton")
                 local ToggleCorner = Instance.new("UICorner")
